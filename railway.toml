@@ -1,0 +1,9 @@
+[build]
+# IMPORTANTE: muchas cuentas de Railway aceptan solo este literal en MAYÚSCULAS
+builder = "DOCKERFILE"
+
+# el Dockerfile del API v2
+dockerfilePath = "infra/docker/api/Dockerfile"
+
+# raíz del repo
+buildContext = "/"
